@@ -1,3 +1,5 @@
+/*tag selector*/
+
 body {
   background-color: #8ab6d6;
 }
@@ -16,3 +18,25 @@ h1 {
 h3 {
   color: #2978b5;
 }
+
+img:hover{
+  background-color: pink;
+}
+
+/*Class selectors (can be used by different tags)*/
+
+.profile{
+  background-color: green;
+}
+
+/*This is the second selector of the class profile "two"*/
+.two{
+  border-radius: 100%;
+}
+
+/*Id selectors (id are unique identifiers)*/
+#name{
+  color:hotpink;
+  font-size: 100px;
+}
+
