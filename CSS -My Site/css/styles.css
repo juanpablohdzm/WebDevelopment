@@ -5,16 +5,20 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", serif;
-  font-size: 4em;
+  font-size: 4rem; /*Ignore inherit value of font size, otherwise em gets root value added*/
+  color: #66bfbf;
 }
 
 h2 {
   font-family: "Montserrat", serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
 }
 
 h3 {
+  color: #11999e;
   font-family: "Montserrat", serif;
 }
 
@@ -24,18 +28,27 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2; /*Change the space between lines, if needed to change elements spacing use padding or marging*/
 }
+
+.skill-image {
+  width: 33%; /*Now the image is 1/3 of the parent (skill row) which is 50%*/
+  float: left;
+  padding-right: 30px;
+}
+
+.middle-container {
+}
+
 .bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
 }
 .computer-graphics-text {
   text-decoration: underline;
+  font-weight: normal;
 }
 
 .bottom-cloud {
