@@ -20,6 +20,13 @@ h1 {
   font-weight: 900;
 }
 
+h2{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 /* Navigation bar */
 
 .navbar{
@@ -65,7 +72,7 @@ h1 {
 
 .feature-title{
   font-family: "Montserrat",sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.6rem;
 }
 
@@ -87,4 +94,32 @@ margin-bottom: 1rem;
 
 .feature-icon:hover{
   color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
