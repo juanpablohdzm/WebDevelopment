@@ -56,3 +56,35 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
 }
+
+/* Feature box */
+
+#features{
+  padding: 7% 10%;
+}
+
+.feature-title{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+  color: #8f8f8f;
+  font-family: "Monsterrat",sans-serif;
+  font-size: 1.2rem;
+}
+
+.feature-icon{
+  color:#ef8172;
+margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
