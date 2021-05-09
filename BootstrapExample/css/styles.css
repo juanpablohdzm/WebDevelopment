@@ -157,3 +157,14 @@ p {
   left: 5%;
   width: 90%;
 }
+
+@media (max-width: 992px){
+  .title-image{
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
