@@ -124,3 +124,31 @@ p {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing section*/
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.deck-cards {
+  position: relative;
+  padding: 5%;
+}
+
+.card {
+  padding: 0;
+  height: 394px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.button-sign-up {
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  width: 90%;
+}
