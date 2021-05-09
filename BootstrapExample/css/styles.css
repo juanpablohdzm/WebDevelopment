@@ -187,3 +187,7 @@ p {
     text-align: center;
   }
 }
+
+/* div h1 {color:red;} **All h1 that are contained in the div */
+/* h1,p {color:red;} paint all h1 and all p red */
+/* h1#title {color: red} an h1 that also has an id "title" */
