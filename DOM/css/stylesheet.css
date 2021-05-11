@@ -1,1 +1,13 @@
+h1 {
+  color: white;
+}
 
+.invisible {
+  visibility: hidden;
+}
+
+.huge {
+  font-size: 10rem;
+  color: red;
+  font-weight: bold;
+}
