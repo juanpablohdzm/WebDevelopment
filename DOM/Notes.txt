@@ -1,0 +1,5 @@
+Notes for the DOM (Document object model).
+
+Catalogs the web page into individual objects that we can select and manipulate. 
+The task of converting and html file into a DOM is done by the browser, 
+it turns each elements and its associated data structure into a tree model.
