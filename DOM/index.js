@@ -4,3 +4,5 @@ document.querySelector(".btn-click").classList.add("invisible"); //Add classes t
 document.querySelector(".btn-click").classList.remove("invisible");
 document.querySelector(".btn-click").classList.toggle("invisible"); //Remove or add
 document.querySelector("h1").classList.add("huge");
+document.querySelector("h1").textContent = "GOOD BYE";
+document.querySelector("a").setAttribute("href","https://www.bing.com");
