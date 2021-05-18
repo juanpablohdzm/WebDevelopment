@@ -47,3 +47,16 @@ $("h1").before("<button>New</button>"); //Adds a button element before h1
 $("h1").after("<button>New</button>"); //Adds a button element after h1
 $("h1").prepend("<button>New</button>"); //Adds a button element inside h1 before the text
 $("h1").append("<button>New</button>"); //Adds a button element inside h1 after the text (or closing tag)
+
+//JQuery animations
+$("button").click(function()
+{
+          //$("h1").toggle();
+          //$("h1").fadeToggle(); //fadeIn() fadeOut()
+          //$("h1").slideToggle();
+          $("h1").animate({
+                    opacity: 0.5, //Only numbers 
+          });
+
+          //you can chain together slideUp().fadeOut().toggle()
+})
