@@ -22,3 +22,21 @@ $("button").html("<em>Hey</em>"); //this would be similar to innerHtml
 var image_src = $("img").attr("src");
 
 $("a").attr("href","https://www.yahoo.com"); //sets the value of href
+
+$("h1").click(function(){
+          $("h1").css("color","purple");
+});
+
+//This will handle all the buttons
+$("button").click(function(){
+          $("h1").css("color","purple");
+});
+
+$("document").keypress(function(event)
+{
+          $("h1").text(event.key);
+});
+
+$("h1").on("mouseover",function(){
+          $("h1").css("color","purple");
+})
