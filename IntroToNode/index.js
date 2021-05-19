@@ -1,3 +1,4 @@
 const fs = require('fs');
+const sh = require('superheroes');
 
-fs.copyFileSync('file1.txt','file2.txt');
+console.log(sh.random());
