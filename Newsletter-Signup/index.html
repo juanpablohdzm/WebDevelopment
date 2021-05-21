@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.83.1" />
+    <title>Newsletter · Bootstrap v5.0</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/sign-in/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet" /> <!--Now all the href take into account the static folder public-->
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form method="POST" action="/">
+        <h1 class="h3 mb-3 fw-normal">Newsletter Signup</h1>
+
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name ="fName"
+            placeholder="First Name"
+            required
+            autofocus
+          />
+          <label for="firstName">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            name = "lName"
+            placeholder="Last Name"
+            required
+          />
+          <label for="lastName">Last Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="john@mail.com"
+            required
+          />
+          <label for="email">Email</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign me up
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+      </form>
+    </main>
+  </body>
+</html>
