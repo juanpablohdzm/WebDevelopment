@@ -1,4 +1,5 @@
 const express = require("express");
+const date = require(__dirname+"/date.js");
 
 const app = express();
 
@@ -13,17 +14,7 @@ app.listen(3000, function (req, res) {
 var items=[];
 
 app.get("/", function (req, res) {
-
-  let today = new Date();
-
-  let options = {
-    weekday : 'long',
-    day : "numeric",
-    month : "long"
-  };
-
-  let day  = today.toLocaleDateString("en-US",options);
-
+  let day = date.getDate();
   res.render("list", { kindOfDay: day,items: items });
 });
 
