@@ -59,7 +59,7 @@ app
     });
   });
 
-/////////////// Request targeting a specific article
+/////////////// Request targeting a specific article, get, delete, update
 
 app
   .route("/articles/:articleTitle") //Within a route :articleTitle is a variable when making a request
