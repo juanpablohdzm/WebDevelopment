@@ -76,7 +76,6 @@ app
     );
   })
   .put(function (req, res) {
-    
     Article.updateOne(
       { title: req.params.articleTitle },
       {
@@ -86,6 +85,35 @@ app
       function (err, result) {
         if (!err) {
           res.send("Success");
+        } else {
+          res.send(err);
+        }
+      }
+    );
+  })
+  .patch(function (req, res) {
+    Article.updateOne(
+      { title: req.params.articleTitle },
+      {
+        $set: req.body, // {title: "XXX"} , or {content: "XXX"}
+      },
+      function (err, result) {
+        if (!err) {
+          res.send("Success");
+        } else {
+          res.send(err);
+        }
+      }
+    );
+  })
+  .delete(function (req, res) {
+    Article.deleteOne(
+      {
+        title: req.params.articleTitle,
+      },
+      function (err) {
+        if (!err) {
+          res.send("DB content deleted");
         } else {
           res.send(err);
         }
